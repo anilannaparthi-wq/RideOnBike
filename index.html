@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BikeGo</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="media1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="main-logo">
+            <div class="icons">
+                <i class="fa-solid fa-motorcycle fa-2xl" style="color: rgb(116, 192, 252);"></i>
+            </div>
+            <div class="logo">
+                <h2><span style="color: white;">BikeGo </span><br><small>RENTAL</small></h2>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#OBF">BIKES</a></li>
+            <li><a href="#PD">DESTINATIONS</a></li>
+            <li><a href="#PP">PRICING</a></li>
+            <li><a href="#WCU">ABOUT US</a></li>
+            <li><a href="#footer">CONTACT</a></li>
+        </ul>
+        <div class="head-btn">
+            <a href="">Book Now</a>
+        </div>
+        <div class="ham">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <div class="hero" id="hero">
+
+        <div class="hero-inner">
+            <h1>RIDE MORE. <span style="color: orange;">PAY LESS.</span></h1>
+            <p>Premium bikes for every journey. <br>rent. ride and explore your next adventure</p>
+            <div class="hero-form">
+                <div class="locsel">
+                    <label for="">Pickup Location</label><br>
+                    <select name="" id="" >
+                        <option value="1">Select Location</option>
+                        <option value="">Benz Circle</option>
+                        <option value="">Gadhi nagr</option>
+                        <option value="">Krishna lanka</option>
+                        <option value="">Gannavaram</option>
+                    </select>
+                </div>
+                <div class="pdate">
+                    <label for="pdate">Pickup Date</label><br>
+                    <input name="pdate" type="date" placeholder="Select Date">
+                </div>
+                <div class="rdate">
+                    <label for="rdate">Return Date</label><br>
+                    <input name="rdate" type="date" placeholder="Select Date">
+                </div>
+                <button class="btn"> <i class="fa-solid fa-magnifying-glass"></i> Find Bikes</button>
+            </div>
+            <div class="ser">
+                <span> <i class="fa-solid fa-motorcycle"></i> Well Maintained Bikes</span>
+                <span> <i class="fa-solid fa-tags"></i> Affordable Pricing</span>
+                <span> <i class="fa-solid fa-headset"></i> 24/7 Support</span>
+                <span> <i class="fa-solid fa-calendar-check"></i> Easy Booking</span>
+            </div>
+        </div>
+
+        
+    </div>
+    
+    <!-- How It Works Section -->
+    <div class="howItWorks" id="HIW">
+        <div class="container">
+            <h2 class="text">HOW IT WORKS</h2>
+            <div class="step">
+                <div class="steps">
+                    <div><i class="fa-solid fa-location-dot fa-2xl"></i></div>
+                    <h2>Choose Location</h2>
+                    <p>Select your pickup location<br> and dates</p>
+                </div>
+                <div class="steps">
+                    <div><i class="fa-solid fa-motorcycle fa-2xl"></i></div>
+                    <h2>pick your bike</h2>
+                    <p>Choose the perfect bike <br>for your ride</p>
+                </div>
+                <div class="steps">
+                    <div><i class="fa-solid fa-file-invoice-dollar fa-2xl"></i></div>
+                    <h2>Book and pay</h2>
+                    <p>Secure your booking with<br> easy payment</p>
+                </div>
+                <div class="steps">
+                    <div><i class="fa-solid fa-road fa-2xl"></i></div>
+                    <h2>Ride and enjoy</h2>
+                    <p> Hit the road and enjoy <br>your adventure</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+       <!-- Our Bike Fleet Section-->
+    <div class="ourBikeFleet" id="OBF">
+        <div class="container">
+            <h2>Our Bike Fleet</h2>
+            <input type="radio" name="bikefilter" id="filter-all" class="filter-radio" checked>
+            <input type="radio" name="bikefilter" id="Sports" class="filter-radio" checked>
+            <input type="radio" name="bikefilter" id="Cruiser" class="filter-radio" checked>
+            <input type="radio" name="bikefilter" id="Adventure" class="filter-radio" checked>
+            <input type="radio" name="bikefilter" id="Scooter" class="filter-radio" checked>
+            <div class="filter-tabs">
+                <label for="filter-all" class="tab">All Bikes</label>
+                <label for="Sports" class="tab">Sports</label>
+                <label for="Cruiser" class="tab">Cruiser</label>
+                <label for="Advanture" class="tab">Advanture</label>
+                <label for="Scooter" class="tab">Scooter</label>
+            </div>
+            <div class="bikes">
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Yamaha_R15_V3.0.jpg" >
+                    <div class="cards">
+                        <h3>Yamaha R15 V4</h3>
+                        <p> Sports Bike</p>
+                        <p> $1499 <small>/day</small></p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Royal_Enfield_Classic_350_2010_Model.jpg">
+                    <div class="cards">
+                        <h3>Royal Enfield Classic 350</h3>
+                        <p>Cruiser Bike</p>
+                        <p> $1499 <small>/day</small></p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/8/8d/Ktm_duke_390.jpg">
+                    <div class="cards">
+                        <h3>KTM Duke 200</h3>
+                        <p> Advanture</p>
+                        <p> $1499 <small>/day</small></p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Honda_6g.jpg">
+                    <div class="cards">
+                        <h3>Honda Activa</h3>
+                        <p> Scooter</p>
+                        <p> $599 <small>/day</small></p>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="ft-bikes">
+                <a href="#" class="btn">View All Bikes</a>
+            </div>
+        </div>
+    </div>
+    
+    
+      <!--  Popular Destination Section-->
+    <div class="popularDest" id="PD">
+        <div class="places-container">
+            <h2>POPULAR DESTINATIONS</h2>
+            <div class="popular-places">
+                <div class="destination-card">
+                    <img src="https://images.pexels.com/photos/38087449/pexels-photo-38087449.jpeg?auto=compress&cs=tinysrgb&w=800">
+                    <div class="destination-caption">
+                        <h3>Leh - Ladakh</h3>
+                        <p>The Ultimate Advanture</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1677820915334-d7ceba1e844a?fm=jpg&q=80&w=800&auto=format&fit=crop">
+                    <div class="destination-caption">
+                        <h3>Manali</h3>
+                        <p>Ride Through Paradise</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.unsplash.com/photo-1515307638821-8c2ece10bf6a?fm=jpg&q=80&w=800&auto=format&fit=crop">
+                    <div class="destination-caption">
+                        <h3>Goa</h3>
+                        <p>Beach, Sun& Fun</p>
+                    </div>
+                </div>
+                <div class="destination-card">
+                    <img src="https://images.pexels.com/photos/38087449/pexels-photo-38087449.jpeg?auto=compress&cs=tinysrgb&w=800">
+                    <div class="destination-caption">
+                        <h3>Spiti valley</h3>
+                        <p>Heaven on Earth</p>
+                    </div>
+                </div>
+            </div>
+            <div class="place-destination" >
+                <button class="btn">View All Destinations</button>
+            </div>
+        </div>
+    </div>
+
+ 
+
+  
+    
+    <!--  Pricing Plans Section-->
+    <div class="pricingPlans" id="PP">
+        <div class="price-container ">
+            <h2>PRICING PLANS</h2>
+            <div class="pricing-cards">
+                <div class="pricing-card">
+                    <h3>Basic Plans</h3>
+                    <span class="sp">Scooter</span>
+                    <p>$599  /day</p>
+                    <p>Ideal for city rides & short trips</p>
+                    <ul class="list">
+                        <li><i class="fa-solid fa-check"></i>100  km/day</li>
+                        <li><i class="fa-solid fa-check"></i>Helmet Include</li>
+                        <li><i class="fa-solid fa-check"></i>24/7 support</li>
+                        <li><a class="btn" href="">Book now</a></li>
+                    </ul>
+                   
+                </div>
+                <div class="pricing-card">
+                    <h3>Standard Plan</h3>
+                    <span class="sp">Cruiser/sport</span>
+                    <p>$1299  /day</p>
+                    <p>Perfect for long trips</p>
+                    <ul class="list">
+                        <li><i class="fa-solid fa-check"></i>200  km/day</li>
+                        <li><i class="fa-solid fa-check"></i>Helmet Include</li>
+                        <li><i class="fa-solid fa-check"></i>24/7 support</li>
+                        <li><i class="fa-solid fa-check"></i>Free Delivery</li>
+                        <li><a class="btn" href="">Book now</a></li>
+                    </ul>
+                    
+                </div>
+                <div class="pricing-card" id="premium-card">
+                    <h3>Premium Plan</h3>
+                    <span class="sp">Premium Bikes</span>
+                    <p>$1999  /day</p>
+                    <p>For the ultimate riding experince</p>
+                    <ul class="list">
+                        <li><i class="fa-solid fa-check"></i>Unlimted km/day</li>
+                        <li><i class="fa-solid fa-check"></i>Helmet Include</li>
+                        <li><i class="fa-solid fa-check"></i>Free Delivery</li>
+                        <li><i class="fa-solid fa-check"></i>Roadside Assistance</li>
+                        <li><a class="btn" href="">Book now</a></li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="note"><span>*Security deposit applicable</span></div>
+    </div>
+    
+    <!--  Why Choose Us Section-->
+    <div class="whyChooseUs" id="WCU">
+        <div class="choose-container">
+            <h2>WHY CHOOSE US</h2>
+            <div class="choose-cards">
+                <div class="choose-items">
+                    <i class="fa-solid fa-motorcycle fa-2xl"></i>
+                    <h3>Well Maintained</h3>
+                    <p>All bikes are regularly serviced and inspected</p>
+                </div>
+                <div class="choose-items">
+                    <i class="fa-solid fa-tag fa-2xl"></i>
+                    <h3>Best Price</h3>
+                    <p>Affortable pricing with no hidden charges</p>
+                </div>
+                <div class="choose-items">
+                    <i class="fa-solid fa-calendar-check fa-2xl"></i>
+                    <h3>Fixlible Booking</h3>
+                    <p>Easy Booking, modify or cancle anytime</p>
+                </div>
+                <div class="choose-items">
+                    <i class="fa-solid fa-headset fa-2xl"></i>
+                    <h3>24/7 Support</h3>
+                    <p>We are always here to help you</p>
+                </div>
+                <div class="choose-items">
+                    <i class="fa-solid fa-font-awesome fa-2xl"></i>
+                    <h3>Safety first</h3>
+                    <p>Your safety is our top priority</p>
+                </div>
+                <div class="choose-items">
+                    <i class="fa-solid fa-users fa-2xl"></i>
+                    <h3>Trusted by Riders</h3>
+                    <p>Thousands of happy rides trust us</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--  What Our Riders Say Section-->
+    <div class="whatOurRidersSay" id="WORS">
+        <div class="rider-container">
+            <h2>WHAT OUR RIDERS SAY</h2>
+            <div class="riders-card">
+                <div class="p-card">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <p>"Amazing experience! The bike was in perfect condition and the service was top-notch. Highly recommend."</p>
+                    <div class="profile">
+                        <img src="https://images.pexels.com/photos/7580994/pexels-photo-7580994.jpeg?auto=compress&cs=tinysrgb&w=120" >
+                        <p>Rohit Sharma</p>
+                    </div>
+                </div>
+                <div class="p-card">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <p>"Booked a bike for Ladakh trip and it was awesome! No hidden charges and excellent support."</p>
+                    <div class="profile">
+                        <img src="https://images.pexels.com/photos/7581111/pexels-photo-7581111.jpeg?auto=compress&cs=tinysrgb&w=120"  >
+                        <p>Ankit Verma</p>
+                    </div>
+                </div>
+                <div class="p-card">
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <i class="fa-solid fa-star" style="color: rgb(255, 212, 59);"></i>
+                    <p>"Very easy booking process and great customer support. Will definitely rent again."</p>
+                    <div class="profile">
+                        <img src="https://images.pexels.com/photos/7580822/pexels-photo-7580822.jpeg?auto=compress&cs=tinysrgb&w=120">
+                        <p>Sneha Iyer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--  FAQ section Section-->
+    <div class="faq" id="FAQ">
+                    <h2>FREQUENTLY ASKED QUESTIONS</h2>
+
+        <div class="FAQ-container">
+            <div class="tables">
+                <details class="text1">
+                    <summary class="text2">What Documents do I Need to rent a bike ? <i class="fa-solid fa-plus" style="color: rgb(255, 212, 59);"></i></summary>
+                        <p> you need a valid driving license , a goverment ID proof <br>(Aadhar/Passport) and a Security deposit.</p>
+                </details>
+                <details class="text1">
+                    <summary class="text2">Is there a security deposit ? <i class="fa-solid fa-plus" style="color: rgb(255, 212, 59);"></i></summary>
+                        <p> you need a valid driving license , a goverment ID proof <br>(Aadhar/Passport) and a Security deposit.</p>
+                </details>
+                <details class="text1">
+                    <summary class="text2">Can i rent a bike without license ? <i class="fa-solid fa-plus" style="color: rgb(255, 212, 59);"></i></summary>
+                        <p> you need a valid driving license , a goverment ID proof <br>(Aadhar/Passport) and a Security deposit.</p>
+                </details>
+                <details class="text1">
+                    <summary class="text2">Can i cancle or modify my bookings ? <i class="fa-solid fa-plus" style="color: rgb(255, 212, 59);"></i></summary>
+                        <p> you need a valid driving license , a goverment ID proof <br>(Aadhar/Passport) and a Security deposit.</p>
+                </details>
+                <details class="text1">
+                    <summary class="text2">What if the bike gets damaged ? <i class="fa-solid fa-plus" style="color: rgb(255, 212, 59);"></i></summary>
+                        <p> you need a valid driving license , a goverment ID proof <br>(Aadhar/Passport) and a Security deposit.</p>
+                </details>
+                <details class="text1">
+                    <summary class="text2">Do you provide roadside Assistance ? <i class="fa-solid fa-plus" style="color: rgb(255, 212, 59);"></i></summary>
+                        <p> you need a valid driving license , a goverment ID proof <br>(Aadhar/Passport) and a Security deposit.</p>
+                </details>
+            </div>
+        </div>
+    </div>
+    
+    <!--  Footer Section-->
+    <footer id="footer">
+       <div class="footer-inner">
+         <section class="f-logo">
+            <h2> <i class="fa-solid fa-motorcycle" style="color: rgb(116, 192, 252);"></i>  BIkeGo</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Perspiciatis, sequi.</p>
+              <p>
+                  <i class="fa-brands fa-square-facebook fa-xl"  ></i>
+                <i class="fa-brands fa-square-instagram fa-xl"  ></i>
+                <i class="fa-brands fa-square-twitter fa-xl"  ></i>
+                <i class="fa-brands fa-square-youtube fa-xl"  ></i>
+              </p>
+        </section>
+        <ul class="f-Qlinks">
+            <h3>QUICK LINKS</h3>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#OBF">BIKES</a></li>
+            <li><a href="#PD">DESTINATIONS</a></li>
+            <li><a href="#PP">PRICING</a></li>
+            <li><a href="#WCU">ABOUT US</a></li>
+            <li><a href="#footer">CONTACT</a></li>
+        </ul>
+        <ul class="f-policies">
+            <h3>OUR POLICIES</h3>
+            <li><a href="">Terms & Conditions</a></li>
+            <li><a href="">Privacy Policy</a></li>
+            <li><a href="">Refund Policy</a></li>
+            <li><a href="">Cancellation Policy</a></li>
+        </ul>
+        
+        <ul class="f-contact">
+            <h3>CONTACT</h3>
+            <li><a href="">
+               <i class="fa-solid fa-location-dot"  ></i> 123, RideStreet, vijayawada, India -521137
+            </a></li>
+            <li><a href="">
+                <i class="fa-solid fa-phone"  ></i> 8523037210
+            </a></li>
+            <li><a href="">
+                <i class="fa-solid fa-envelope"  ></i> anil.annaparthi@gmail.com
+            </a></li>
+        </ul>
+       </div>
+    </footer>
+    
+</body>
+</html>

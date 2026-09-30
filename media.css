@@ -1,0 +1,209 @@
+@media (max-width:768px) {
+
+    header{
+        justify-content: space-around;
+
+    }
+
+    .nav-links, .head-btn{
+         display: none;
+    }
+
+
+    .ham {
+        display: block;
+    }
+
+    /* -------------------- */
+
+    .hero{
+        align-items: center;
+        justify-content: center;
+        color: antiquewhite;
+
+    }
+
+    .hero{
+        height: auto;
+    }
+
+    .hero h1{
+        margin-top: 10vh;
+    }
+
+    .hero-inner{
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .hero-inner h1 {
+        font-size: 1rem;
+    }
+    .hero-form{
+        gap: 10px;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .ser {
+       text-align:center;
+    }
+
+    .howItWorks{
+        height: fit-content;
+    }
+
+    .text{
+        padding: 20px;
+    }
+
+    .step{
+        flex-wrap: wrap;
+
+
+    }
+
+    .steps div{
+        width: 50px;
+        height: 50px;
+        font-size: 15px;
+        border: solid;
+        border-radius: 50%;
+    }
+
+    .tab {
+        flex-shrink: 0;
+        padding: 6px;
+        font-size: 0.73rem;
+    }
+
+    .card img{
+        width: 250px;
+        height: 30vh;
+    }
+
+    .card{
+        margin: 4px;
+    }
+
+
+    .places-container h2{
+        font-size: 2rem;
+    }
+
+    .popular-places img{
+        width: 250px;
+        height: 220px;
+    }
+
+    .destination-card{
+        height: 200px;
+    }
+
+    .pricing-cards{
+        padding: 7vh;
+        
+    }
+
+    .pricingPlans{
+        height: 100%;
+    }
+
+    .pricing-card{
+        height: 100%;
+        margin-top: 10px;
+
+    }
+
+
+    .whyChooseUs{
+        height: auto;
+        margin: 0;
+    }
+
+    
+
+    .choose-cards {
+        height: 100%;
+
+    }
+
+    .choose-cards{
+        text-align: center;
+       
+    }
+
+    .choose-items i{
+        width: 10%;
+        height: 50%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .choose-items .fa-solid{
+        padding: 20px;
+    }
+
+
+
+    /*profile     */
+
+    .whatOurRidersSay{
+        height: 100%;
+    }
+
+    .rider-container h2{
+        font-size: 1rem;
+        padding: 30px;
+    }
+
+    .p-card{
+        width: 60vh;
+        height: auto;
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .p-card img{
+        width: 20vw;
+    }
+
+
+
+    .faq{
+        height: auto;
+    }
+    .tables{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 10vh;
+    }
+
+    .text1{
+        text-align: left;
+        border: 2px solid;
+        margin: 1vh;
+
+    }
+
+
+    /* --------------------- */
+
+    footer {
+        height: auto;
+    }
+
+    .footer-inner{
+        gap: 50px;
+        text-align: center;
+    }
+    
+}
+
+
+@media (max-width:1024px) {
+
+
+    
+}
